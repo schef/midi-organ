@@ -27,27 +27,27 @@ C 41000 57900 1 0 0 input-2.sym
 T 41000 58100 5 10 1 0 0 0 1
 net=q7:1
 T 41600 58600 5 10 0 2 0 0 1
-device=none
+device=Q7
 T 41500 58000 5 10 1 1 0 7 1
-value=Q7
+value=INPUT
 }
 C 41000 57300 1 0 0 input-2.sym
 {
 T 41000 57500 5 10 1 0 0 0 1
 net=cp:1
 T 41600 58000 5 10 0 0 0 0 1
-device=none
+device=CP
 T 41500 57400 5 10 1 1 0 7 1
-value=CP
+value=INPUT
 }
 C 41000 56700 1 0 0 input-2.sym
 {
 T 41000 56900 5 10 1 0 0 0 1
 net=!pl:1
 T 41600 57400 5 10 0 0 0 0 1
-device=none
+device=!PL
 T 41500 56800 5 10 1 1 0 7 1
-value=!PL
+value=INPUT
 }
 N 42400 56800 42700 56800 4
 N 42700 46700 42700 56800 4
