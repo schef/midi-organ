@@ -5,6 +5,8 @@ T 50200 53300 5 10 0 0 0 0 1
 device=RESISTOR
 T 50100 53200 5 10 1 1 0 0 1
 refdes=R?
+T 50200 52700 5 10 1 1 0 0 1
+value=220
 }
 C 48200 52500 1 0 0 Female-DIN-5.sym
 {
