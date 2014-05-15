@@ -247,3 +247,16 @@ value=OUTPUT
 N 56900 60500 58700 60500 4
 N 54000 62800 58700 62800 4
 C 49100 62500 1 0 0 vdd-1.sym
+C 46800 52900 0 0 0 title-A3.sym
+T 56400 53600 9 10 1 0 0 0 1
+arduino standalone extended
+T 56400 53300 9 7 1 0 0 0 1
+arduino_standalone_extended_norefnum.sch
+T 56400 53000 9 10 1 0 0 0 1
+1
+T 57900 53000 9 10 1 0 0 0 1
+1
+T 60200 53300 9 10 1 0 0 0 1
+v0.1
+T 60200 53000 9 8 1 0 0 0 1
+Benjamin Horvat | http://horvat-elektronika.hr
