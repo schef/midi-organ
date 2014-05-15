@@ -1,0 +1,3 @@
+schematics arduino_standalone_extended.sch midi_connector.sch volume_pedal.sch shift_registri_x2.sch
+output-name midi_organ
+elements-dir ~/Work/gaf/config/pcb-elements
