@@ -2,6 +2,7 @@
 (Created from file: /home/schef/github/midi-organ/geda/complete/complete.dxf)
 (Time: Fri May 16 11:36:38 2014)
 G21 (Units in millimeters) G90 (Absolute programming) G64 (Default cutting) G17 (XY plane) G40 (Cancel radius comp.) G49 (Cancel length comp.)
+G0 Z  15.000
 
 (*** LAYER: Top ***)
 T1 M6
@@ -4439,5 +4440,6 @@ G2 X  39.037 Y   9.933 I  -0.453 J   0.000
 G2 X  29.541 Y  19.429 I   0.011 J   9.506
 F200
 G1 Z   2.000
+G0 Z  15.000
 G0 X   0.000 Y   0.000
 M2 (Program end)
