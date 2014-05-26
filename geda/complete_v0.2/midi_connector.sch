@@ -4,7 +4,7 @@ C 49900 52900 1 0 0 resistor-1.sym
 T 50200 53300 5 10 0 0 0 0 1
 device=RESISTOR
 T 50100 53200 5 10 1 1 0 0 1
-refdes=R?
+refdes=R84
 T 50200 52700 5 10 1 1 0 0 1
 value=220
 T 49900 52900 5 10 0 0 0 0 1
@@ -17,16 +17,16 @@ device=Female-DIN-5
 T 48400 54500 5 10 0 0 0 0 1
 footprint=Female_DIN_5_pin
 T 49095 53795 5 10 1 1 0 0 1
-refdes=CN?
+refdes=CN2
 }
 C 48800 51900 1 0 0 gnd-1.sym
 C 46500 52900 1 0 0 input-2.sym
 {
-T 46500 53100 5 10 1 0 0 0 1
+T 46500 53100 5 10 0 0 0 0 1
 net=midi:1
-T 47100 53600 5 10 0 0 0 0 1
+T 47100 52900 5 10 1 1 0 0 1
 device=MIDI
-T 47000 53000 5 10 1 1 0 7 1
+T 47000 53000 5 10 0 1 0 7 1
 value=INPUT
 }
 N 47900 53000 48200 53000 4

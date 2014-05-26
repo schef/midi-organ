@@ -28,7 +28,7 @@ C 49500 48200 1 0 0 header_1x8.sym
 T 49550 47150 5 10 0 1 0 0 1
 device=HEADER8
 T 49900 51500 5 10 1 1 0 0 1
-refdes=J?
+refdes=J6
 T 49500 48200 5 10 0 0 0 0 1
 footprint=SIP8
 }
@@ -72,7 +72,7 @@ C 46000 48600 1 0 0 74164-1_vcc-gnd.sym
 T 46300 51850 5 10 0 0 0 0 1
 device=74164
 T 47700 51300 5 10 1 1 0 6 1
-refdes=U?
+refdes=U9
 T 46300 52050 5 10 0 0 0 0 1
 footprint=DIP14
 }
@@ -81,7 +81,7 @@ C 45600 49400 1 90 0 capacitor-1.sym
 T 44900 49600 5 10 0 0 90 0 1
 device=CAPACITOR
 T 45300 50100 5 10 1 1 180 0 1
-refdes=C?
+refdes=C9
 T 44700 49600 5 10 0 0 90 0 1
 symversion=0.1
 T 45600 49400 5 10 0 0 0 0 1

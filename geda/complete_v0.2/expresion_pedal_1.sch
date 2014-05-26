@@ -4,7 +4,7 @@ C 37600 46700 1 270 0 pot-bourns.sym
 T 38500 45900 5 10 0 0 270 0 1
 device=VARIABLE_RESISTOR
 T 38000 46100 5 10 1 1 270 0 1
-refdes=R?
+refdes=R85
 T 37600 46700 5 10 0 0 0 0 1
 footprint=JUMPER3
 }

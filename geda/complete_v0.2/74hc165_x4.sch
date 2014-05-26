@@ -40,7 +40,7 @@ device=HEADER8
 T 79700 57400 5 10 0 0 0 0 1
 footprint=JUMPER8
 T 81400 56800 5 10 1 1 270 0 1
-refdes=J?
+refdes=J2
 }
 N 76500 56900 79400 56900 4
 N 79400 56900 79400 57700 4
@@ -81,7 +81,7 @@ device=RESISTOR
 T 82300 58500 5 10 0 0 0 0 1
 footprint=R025
 T 83300 58500 5 10 1 1 0 0 1
-refdes=R?
+refdes=R4
 T 83800 58500 5 10 1 1 0 0 1
 value=10K
 }
@@ -94,7 +94,7 @@ device=HEADER8
 T 79700 52500 5 10 0 0 0 0 1
 footprint=JUMPER8
 T 81400 51900 5 10 1 1 270 0 1
-refdes=J?
+refdes=J3
 }
 N 79400 52000 79400 52800 4
 N 79900 52500 79900 52800 4
@@ -140,7 +140,7 @@ device=HEADER8
 T 79700 47600 5 10 0 0 0 0 1
 footprint=JUMPER8
 T 81400 47000 5 10 1 1 270 0 1
-refdes=J?
+refdes=J4
 }
 N 79400 47100 79400 47900 4
 N 79900 47600 79900 47900 4
@@ -187,7 +187,7 @@ device=RESISTOR
 T 82300 58200 5 10 0 0 0 0 1
 footprint=R025
 T 83300 58200 5 10 1 1 0 0 1
-refdes=R?
+refdes=R5
 T 83800 58200 5 10 1 1 0 0 1
 value=10K
 }
@@ -198,7 +198,7 @@ device=RESISTOR
 T 82300 57900 5 10 0 0 0 0 1
 footprint=R025
 T 83300 57900 5 10 1 1 0 0 1
-refdes=R?
+refdes=R6
 T 83800 57900 5 10 1 1 0 0 1
 value=10K
 }
@@ -209,7 +209,7 @@ device=RESISTOR
 T 82300 57600 5 10 0 0 0 0 1
 footprint=R025
 T 83300 57600 5 10 1 1 0 0 1
-refdes=R?
+refdes=R7
 T 83800 57600 5 10 1 1 0 0 1
 value=10K
 }
@@ -220,7 +220,7 @@ device=RESISTOR
 T 82300 55600 5 10 0 0 0 0 1
 footprint=R025
 T 83300 55600 5 10 1 1 0 0 1
-refdes=R?
+refdes=R8
 T 83800 55600 5 10 1 1 0 0 1
 value=10K
 }
@@ -231,7 +231,7 @@ device=RESISTOR
 T 82300 55300 5 10 0 0 0 0 1
 footprint=R025
 T 83300 55300 5 10 1 1 0 0 1
-refdes=R?
+refdes=R9
 T 83800 55300 5 10 1 1 0 0 1
 value=10K
 }
@@ -242,7 +242,7 @@ device=RESISTOR
 T 82300 55000 5 10 0 0 0 0 1
 footprint=R025
 T 83300 55000 5 10 1 1 0 0 1
-refdes=R?
+refdes=R10
 T 83800 55000 5 10 1 1 0 0 1
 value=10K
 }
@@ -253,7 +253,7 @@ device=RESISTOR
 T 82300 54700 5 10 0 0 0 0 1
 footprint=R025
 T 83300 54700 5 10 1 1 0 0 1
-refdes=R?
+refdes=R11
 T 83800 54700 5 10 1 1 0 0 1
 value=10K
 }
@@ -264,7 +264,7 @@ device=RESISTOR
 T 82300 53600 5 10 0 0 0 0 1
 footprint=R025
 T 83300 53600 5 10 1 1 0 0 1
-refdes=R?
+refdes=R12
 T 83800 53600 5 10 1 1 0 0 1
 value=10K
 }
@@ -275,7 +275,7 @@ device=RESISTOR
 T 82300 53300 5 10 0 0 0 0 1
 footprint=R025
 T 83300 53300 5 10 1 1 0 0 1
-refdes=R?
+refdes=R13
 T 83800 53300 5 10 1 1 0 0 1
 value=10K
 }
@@ -286,7 +286,7 @@ device=RESISTOR
 T 82300 53000 5 10 0 0 0 0 1
 footprint=R025
 T 83300 53000 5 10 1 1 0 0 1
-refdes=R?
+refdes=R14
 T 83800 53000 5 10 1 1 0 0 1
 value=10K
 }
@@ -297,7 +297,7 @@ device=RESISTOR
 T 82300 52700 5 10 0 0 0 0 1
 footprint=R025
 T 83300 52700 5 10 1 1 0 0 1
-refdes=R?
+refdes=R15
 T 83800 52700 5 10 1 1 0 0 1
 value=10K
 }
@@ -308,7 +308,7 @@ device=RESISTOR
 T 82300 50700 5 10 0 0 0 0 1
 footprint=R025
 T 83300 50700 5 10 1 1 0 0 1
-refdes=R?
+refdes=R16
 T 83800 50700 5 10 1 1 0 0 1
 value=10K
 }
@@ -319,7 +319,7 @@ device=RESISTOR
 T 82300 50400 5 10 0 0 0 0 1
 footprint=R025
 T 83300 50400 5 10 1 1 0 0 1
-refdes=R?
+refdes=R17
 T 83800 50400 5 10 1 1 0 0 1
 value=10K
 }
@@ -330,7 +330,7 @@ device=RESISTOR
 T 82300 50100 5 10 0 0 0 0 1
 footprint=R025
 T 83300 50100 5 10 1 1 0 0 1
-refdes=R?
+refdes=R18
 T 83800 50100 5 10 1 1 0 0 1
 value=10K
 }
@@ -341,7 +341,7 @@ device=RESISTOR
 T 82300 49800 5 10 0 0 0 0 1
 footprint=R025
 T 83300 49800 5 10 1 1 0 0 1
-refdes=R?
+refdes=R19
 T 83800 49800 5 10 1 1 0 0 1
 value=10K
 }
@@ -352,7 +352,7 @@ device=RESISTOR
 T 82300 48700 5 10 0 0 0 0 1
 footprint=R025
 T 83300 48700 5 10 1 1 0 0 1
-refdes=R?
+refdes=R20
 T 83800 48700 5 10 1 1 0 0 1
 value=10K
 }
@@ -363,7 +363,7 @@ device=RESISTOR
 T 82300 48400 5 10 0 0 0 0 1
 footprint=R025
 T 83300 48400 5 10 1 1 0 0 1
-refdes=R?
+refdes=R21
 T 83800 48400 5 10 1 1 0 0 1
 value=10K
 }
@@ -374,7 +374,7 @@ device=RESISTOR
 T 82300 48100 5 10 0 0 0 0 1
 footprint=R025
 T 83300 48100 5 10 1 1 0 0 1
-refdes=R?
+refdes=R22
 T 83800 48100 5 10 1 1 0 0 1
 value=10K
 }
@@ -385,7 +385,7 @@ device=RESISTOR
 T 82300 47800 5 10 0 0 0 0 1
 footprint=R025
 T 83300 47800 5 10 1 1 0 0 1
-refdes=R?
+refdes=R23
 T 83800 47800 5 10 1 1 0 0 1
 value=10K
 }
@@ -396,7 +396,7 @@ device=RESISTOR
 T 82300 45800 5 10 0 0 0 0 1
 footprint=R025
 T 83300 45800 5 10 1 1 0 0 1
-refdes=R?
+refdes=R24
 T 83800 45800 5 10 1 1 0 0 1
 value=10K
 }
@@ -407,7 +407,7 @@ device=RESISTOR
 T 82300 45500 5 10 0 0 0 0 1
 footprint=R025
 T 83300 45500 5 10 1 1 0 0 1
-refdes=R?
+refdes=R25
 T 83800 45500 5 10 1 1 0 0 1
 value=10K
 }
@@ -418,7 +418,7 @@ device=RESISTOR
 T 82300 45200 5 10 0 0 0 0 1
 footprint=R025
 T 83300 45200 5 10 1 1 0 0 1
-refdes=R?
+refdes=R26
 T 83800 45200 5 10 1 1 0 0 1
 value=10K
 }
@@ -429,7 +429,7 @@ device=RESISTOR
 T 82300 44900 5 10 0 0 0 0 1
 footprint=R025
 T 83300 44900 5 10 1 1 0 0 1
-refdes=R?
+refdes=R27
 T 83800 44900 5 10 1 1 0 0 1
 value=10K
 }
@@ -452,7 +452,7 @@ device=HEADER8
 T 79700 42700 5 10 0 0 0 0 1
 footprint=JUMPER8
 T 81400 42100 5 10 1 1 270 0 1
-refdes=J?
+refdes=J5
 }
 N 79400 42200 79400 43000 4
 N 79900 42700 79900 43000 4
@@ -497,7 +497,7 @@ device=RESISTOR
 T 82300 43800 5 10 0 0 0 0 1
 footprint=R025
 T 83300 43800 5 10 1 1 0 0 1
-refdes=R?
+refdes=R28
 T 83800 43800 5 10 1 1 0 0 1
 value=10K
 }
@@ -508,7 +508,7 @@ device=RESISTOR
 T 82300 43500 5 10 0 0 0 0 1
 footprint=R025
 T 83300 43500 5 10 1 1 0 0 1
-refdes=R?
+refdes=R29
 T 83800 43500 5 10 1 1 0 0 1
 value=10K
 }
@@ -519,7 +519,7 @@ device=RESISTOR
 T 82300 43200 5 10 0 0 0 0 1
 footprint=R025
 T 83300 43200 5 10 1 1 0 0 1
-refdes=R?
+refdes=R30
 T 83800 43200 5 10 1 1 0 0 1
 value=10K
 }
@@ -530,7 +530,7 @@ device=RESISTOR
 T 82300 42900 5 10 0 0 0 0 1
 footprint=R025
 T 83300 42900 5 10 1 1 0 0 1
-refdes=R?
+refdes=R31
 T 83800 42900 5 10 1 1 0 0 1
 value=10K
 }
@@ -541,7 +541,7 @@ device=RESISTOR
 T 82300 40900 5 10 0 0 0 0 1
 footprint=R025
 T 83300 40900 5 10 1 1 0 0 1
-refdes=R?
+refdes=R32
 T 83800 40900 5 10 1 1 0 0 1
 value=10K
 }
@@ -552,7 +552,7 @@ device=RESISTOR
 T 82300 40600 5 10 0 0 0 0 1
 footprint=R025
 T 83300 40600 5 10 1 1 0 0 1
-refdes=R?
+refdes=R33
 T 83800 40600 5 10 1 1 0 0 1
 value=10K
 }
@@ -563,7 +563,7 @@ device=RESISTOR
 T 82300 40300 5 10 0 0 0 0 1
 footprint=R025
 T 83300 40300 5 10 1 1 0 0 1
-refdes=R?
+refdes=R34
 T 83800 40300 5 10 1 1 0 0 1
 value=10K
 }
@@ -574,7 +574,7 @@ device=RESISTOR
 T 82300 40000 5 10 0 0 0 0 1
 footprint=R025
 T 83300 40000 5 10 1 1 0 0 1
-refdes=R?
+refdes=R35
 T 83800 40000 5 10 1 1 0 0 1
 value=10K
 }
@@ -598,7 +598,7 @@ C 76500 55200 1 0 1 74HC165-1_vcc-gnd.sym
 T 76200 58640 5 10 0 0 0 6 1
 device=74HC165
 T 74800 58050 5 10 1 1 0 0 1
-refdes=U?
+refdes=U5
 T 76200 58850 5 10 0 0 0 6 1
 footprint=DIP16
 }
@@ -607,7 +607,7 @@ C 76500 50300 1 0 1 74HC165-1_vcc-gnd.sym
 T 76200 53740 5 10 0 0 0 6 1
 device=74HC165
 T 74800 53150 5 10 1 1 0 0 1
-refdes=U?
+refdes=U6
 T 76200 53950 5 10 0 0 0 6 1
 footprint=DIP16
 }
@@ -616,7 +616,7 @@ C 76500 45400 1 0 1 74HC165-1_vcc-gnd.sym
 T 76200 48840 5 10 0 0 0 6 1
 device=74HC165
 T 74800 48250 5 10 1 1 0 0 1
-refdes=U?
+refdes=U7
 T 76200 49050 5 10 0 0 0 6 1
 footprint=DIP16
 }
@@ -625,7 +625,7 @@ C 76500 40500 1 0 1 74HC165-1_vcc-gnd.sym
 T 76200 43940 5 10 0 0 0 6 1
 device=74HC165
 T 74800 43350 5 10 1 1 0 0 1
-refdes=U?
+refdes=U8
 T 76200 44150 5 10 0 0 0 6 1
 footprint=DIP16
 }
@@ -649,7 +649,7 @@ C 73000 55500 1 0 0 capacitor-1.sym
 T 73200 56200 5 10 0 0 0 0 1
 device=CAPACITOR
 T 73300 56000 5 10 1 1 0 0 1
-refdes=C?
+refdes=C5
 T 73200 56400 5 10 0 0 0 0 1
 symversion=0.1
 T 73000 55500 5 10 0 0 0 0 1
@@ -662,7 +662,7 @@ C 73000 50600 1 0 0 capacitor-1.sym
 T 73200 51300 5 10 0 0 0 0 1
 device=CAPACITOR
 T 73300 51100 5 10 1 1 0 0 1
-refdes=C?
+refdes=C6
 T 73200 51500 5 10 0 0 0 0 1
 symversion=0.1
 T 73000 50600 5 10 0 0 0 0 1
@@ -675,7 +675,7 @@ C 73000 45700 1 0 0 capacitor-1.sym
 T 73200 46400 5 10 0 0 0 0 1
 device=CAPACITOR
 T 73300 46200 5 10 1 1 0 0 1
-refdes=C?
+refdes=C7
 T 73200 46600 5 10 0 0 0 0 1
 symversion=0.1
 T 73000 45700 5 10 0 0 0 0 1
@@ -688,7 +688,7 @@ C 73000 40800 1 0 0 capacitor-1.sym
 T 73200 41500 5 10 0 0 0 0 1
 device=CAPACITOR
 T 73300 41300 5 10 1 1 0 0 1
-refdes=C?
+refdes=C8
 T 73200 41700 5 10 0 0 0 0 1
 symversion=0.1
 T 73000 40800 5 10 0 0 0 0 1

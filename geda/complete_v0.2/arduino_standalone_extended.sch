@@ -4,7 +4,7 @@ C 54300 56900 1 0 0 ATmega8-1.sym
 T 54400 61700 5 10 0 0 0 0 1
 footprint=DIP28N
 T 56600 61500 5 10 1 1 0 6 1
-refdes=U?
+refdes=U1
 T 54400 62500 5 10 0 0 0 0 1
 device=ATmega8
 }
@@ -13,7 +13,7 @@ C 50700 56600 1 0 0 capacitor-1.sym
 T 50900 57300 5 10 0 0 0 0 1
 device=CAPACITOR
 T 50900 57100 5 10 1 1 0 0 1
-refdes=C?
+refdes=C1
 T 50900 57500 5 10 0 0 0 0 1
 symversion=0.1
 T 51300 56600 5 10 1 1 0 0 1
@@ -26,7 +26,7 @@ C 50700 57300 1 0 0 capacitor-1.sym
 T 50900 58000 5 10 0 0 0 0 1
 device=CAPACITOR
 T 50900 57800 5 10 1 1 0 0 1
-refdes=C?
+refdes=C2
 T 50900 58200 5 10 0 0 0 0 1
 symversion=0.1
 T 51300 57600 5 10 1 1 0 0 1
@@ -39,7 +39,7 @@ C 49100 61900 1 270 0 capacitor-2.sym
 T 49800 61700 5 10 0 0 270 0 1
 device=POLARIZED_CAPACITOR
 T 48600 61500 5 10 1 1 0 0 1
-refdes=C?
+refdes=C3
 T 50000 61700 5 10 0 0 270 0 1
 symversion=0.1
 T 48600 61300 5 10 1 1 0 0 1
@@ -52,7 +52,7 @@ C 51300 61900 1 270 0 capacitor-2.sym
 T 52000 61700 5 10 0 0 270 0 1
 device=POLARIZED_CAPACITOR
 T 51800 61500 5 10 1 1 0 0 1
-refdes=C?
+refdes=C4
 T 52200 61700 5 10 0 0 270 0 1
 symversion=0.1
 T 51800 61300 5 10 1 1 0 0 1
@@ -65,7 +65,7 @@ C 49600 61300 1 0 0 lm7805-1.sym
 T 51200 62600 5 10 0 0 0 0 1
 device=7805
 T 50900 62300 5 10 1 1 0 6 1
-refdes=U?
+refdes=U2
 T 49600 61300 5 10 0 0 0 0 1
 value=7805
 T 49900 62300 5 10 1 1 0 0 1
@@ -76,7 +76,7 @@ C 51600 59600 1 180 0 led-1.sym
 T 50800 59000 5 10 0 0 180 0 1
 device=LED
 T 51400 59800 5 10 1 1 180 0 1
-refdes=LED?
+refdes=LED1
 T 50800 58800 5 10 0 0 180 0 1
 symversion=0.1
 T 51600 59600 5 10 0 0 0 0 1
@@ -87,7 +87,7 @@ C 52000 56800 1 90 0 crystal-1.sym
 T 51500 57000 5 10 0 0 90 0 1
 device=CRYSTAL
 T 52500 57300 5 10 1 1 180 0 1
-refdes=U?
+refdes=U3
 T 51300 57000 5 10 0 0 90 0 1
 symversion=0.1
 T 52100 56900 5 10 1 1 0 0 1
@@ -100,7 +100,7 @@ C 51900 59300 1 0 0 resistor-1.sym
 T 52200 59700 5 10 0 0 0 0 1
 device=RESISTOR
 T 52100 59600 5 10 1 1 0 0 1
-refdes=R?
+refdes=R1
 T 52200 59100 5 10 1 1 0 0 1
 value=220
 T 51900 59300 5 10 0 0 0 0 1
@@ -126,7 +126,7 @@ C 58400 59100 1 180 0 resistor-1.sym
 T 58100 58700 5 10 0 0 180 0 1
 device=RESISTOR
 T 57600 58700 5 10 1 1 0 0 1
-refdes=R?
+refdes=R2
 T 58000 58700 5 10 1 1 0 0 1
 value=10K
 T 58400 59100 5 10 0 0 180 0 1
@@ -140,7 +140,7 @@ C 50400 53800 1 0 0 connector6-1.sym
 T 52200 55600 5 10 0 0 0 0 1
 device=ICSP
 T 50500 55800 5 10 1 1 0 0 1
-refdes=ICSP
+refdes=ICSP1
 T 50400 53800 5 10 0 0 0 0 1
 footprint=HEADER6_2
 }
@@ -161,7 +161,7 @@ C 48200 57100 1 270 0 switch-spdt-1_jumper.sym
 T 49000 56700 5 10 0 0 270 0 1
 device=SPDT
 T 48800 56700 5 10 1 1 270 0 1
-refdes=S?
+refdes=S1
 T 48200 57100 5 10 0 0 270 0 1
 footprint=JUMPER3
 }
@@ -205,7 +205,7 @@ C 48300 61000 1 0 1 PowerJack-3.sym
 T 47900 63100 5 8 0 0 0 6 1
 device=PowerJack-3
 T 46710 62097 5 8 1 1 0 6 1
-refdes=CN?
+refdes=CN1
 T 48300 61000 5 10 0 0 0 0 1
 footprint=Power_Plug_163-7620-E_5.5mm-2.1mm.fp
 }
@@ -216,7 +216,7 @@ C 49200 59600 1 180 1 led-1.sym
 T 50000 59000 5 10 0 0 180 6 1
 device=LED
 T 49500 59800 5 10 1 1 180 6 1
-refdes=LED?
+refdes=LED2
 T 50000 58800 5 10 0 0 180 6 1
 symversion=0.1
 T 49200 59600 5 10 0 0 0 6 1
@@ -227,7 +227,7 @@ C 48000 59300 1 0 0 resistor-1.sym
 T 48300 59700 5 10 0 0 0 0 1
 device=RESISTOR
 T 48200 59600 5 10 1 1 0 0 1
-refdes=R?
+refdes=R3
 T 48300 59100 5 10 1 1 0 0 1
 value=220
 T 48000 59300 5 10 0 0 0 0 1
@@ -245,7 +245,7 @@ C 50700 60200 1 0 0 switch-pushbutton-reset.sym
 T 50250 60075 5 10 0 0 0 0 1
 device=SWITCH_PUSHBUTTON_SPDT
 T 51100 60600 5 10 1 1 0 0 1
-refdes=S?
+refdes=S2
 T 50700 60200 5 10 0 0 0 0 1
 footprint=TYCO_fsm2j.fp
 }
@@ -256,14 +256,14 @@ device=7404
 T 59600 62650 5 10 0 0 0 0 1
 footprint=DIP14
 T 60800 62500 5 10 1 1 0 0 1
-refdes=U?
+refdes=U4
 }
 C 61000 56400 1 0 1 DB9_RS232_DTE_pinout.sym
 {
 T 60800 60350 5 10 0 0 0 6 1
 device=DB9
 T 60800 59600 5 10 1 1 0 6 1
-refdes=CONN?
+refdes=CONN1
 T 61000 56400 5 10 0 0 0 6 1
 footprint=SUBD_FEMALE_LAY 9
 }
@@ -321,7 +321,7 @@ C 48300 61700 1 0 0 diode-1.sym
 T 48700 62300 5 10 0 0 0 0 1
 device=DIODE
 T 48600 62200 5 10 1 1 0 0 1
-refdes=D?
+refdes=D1
 T 48300 61700 5 10 0 0 0 0 1
 footprint=DIODE_LAY 300
 }
@@ -449,7 +449,7 @@ C 54000 59500 1 0 1 header-1x5.sym
 T 54000 60825 5 10 0 0 0 6 1
 device=HEADER_1X5
 T 53400 59900 5 10 1 1 0 0 1
-refdes=J?
+refdes=J1
 T 54000 60600 5 10 0 0 0 6 1
 footprint=SIP5
 }

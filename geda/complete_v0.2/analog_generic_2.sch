@@ -31,7 +31,7 @@ C 37700 45900 1 0 1 header-1x3.sym
 T 37600 46925 5 10 0 0 0 6 1
 device=HEADER_1X3
 T 37500 46500 5 10 1 1 0 6 1
-refdes=J?
+refdes=J10
 T 37600 46700 5 10 0 0 0 6 1
 footprint=SIP3
 }
