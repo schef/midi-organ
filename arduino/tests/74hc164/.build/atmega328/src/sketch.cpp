@@ -1,7 +1,12 @@
+#include <Arduino.h>
+
+void setup();
+void loop();
+#line 1 "src/sketch.ino"
 //Test example for 74hc164
 
-#define data 4
-#define clock 5
+#define data 2
+#define clock 3
 
 void setup()
 {

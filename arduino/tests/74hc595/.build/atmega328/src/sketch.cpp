@@ -1,3 +1,8 @@
+#include <Arduino.h>
+
+void setup();
+void loop();
+#line 1 "src/sketch.ino"
 //**************************************************************//
 //  Name    : shiftOutCode, Hello World                                
 //  Author  : Carlyn Maw,Tom Igoe, David A. Mellis 
@@ -16,7 +21,7 @@ int clockPin = 13; //SCK
 ////Pin connected to DS of 74HC595
 int dataPin = 11; //MOSI
 
-
+int oneByOne[8] = {1, 2, 4, 8, 16, 32, 64, 128};
 
 void setup() {
   //set pins to output so you can control the shift register
@@ -28,12 +33,12 @@ void setup() {
 void loop() {
   // count from 0 to 255 and display the number 
   // on the LEDs
-  for (int numberToDisplay = 0; numberToDisplay < 256; numberToDisplay++) {
+  for (int numberToDisplay = 0; numberToDisplay < 8; numberToDisplay++) {
     // take the latchPin low so 
     // the LEDs don't change while you're sending in bits:
     digitalWrite(latchPin, LOW);
     // shift out the bits:
-    shiftOut(dataPin, clockPin, MSBFIRST, numberToDisplay);  
+    shiftOut(dataPin, clockPin, MSBFIRST, oneByOne[numberToDisplay]);  
 
     //take the latch pin high so the LEDs will light up:
     digitalWrite(latchPin, HIGH);
