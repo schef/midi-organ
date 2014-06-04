@@ -1,0 +1,5 @@
+commands:
+
+refdes_renum arduino_standalone_extended.sch 74hc165_x4.sch 74hc164.sch 74hc595_x6.sch midi_connector.sch expresion_pedal_1.sch expresion_pedal_2.sch expresion_pedal_3.sch analog_generic_1.sch analog_generic_2.sch analog_generic_3.sch
+
+gsch2pcb projekt
