@@ -1,0 +1,8 @@
+[Unit]
+Description=m-audio sound card
+
+[Path]
+DirectoryNotEmpty=/sys/class/sound/card0
+
+#[Install]
+#WantedBy=default.target

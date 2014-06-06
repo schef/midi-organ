@@ -1,0 +1,14 @@
+[Unit]
+Description=NON-mixer
+Requires=sound.target jackd.service
+After=sound.target jackd.service
+#After=sound.target
+
+[Service]
+Type=simple
+User=root
+#ExecStart=/root/sf2/non-mixer-gui.sh
+ExecStart=/root/organ/non-mixer-gui.sh
+
+[Install]
+WantedBy=multi-user.target

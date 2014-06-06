@@ -1,0 +1,13 @@
+[Unit]
+Description=MIXER
+Requires=sound.target ls_jackd.service
+After=sound.target ls_jackd.service
+#After=sound.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/root/linuxsampler/mixer.sh
+
+[Install]
+WantedBy=multi-user.target

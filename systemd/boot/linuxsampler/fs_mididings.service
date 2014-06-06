@@ -1,0 +1,15 @@
+[Unit]
+Description=Mididings PATCH
+Requires=sound.target fs_jackd.service
+After=sound.target fs_jackd.service
+#After=sound.target
+
+[Service]
+Type=simple
+User=root
+#ExecStart=/root/organ/pmi_baroque_organ-moerdijk.py
+#ExecStart=/root/organ/mididings_load.py
+ExecStart=/root/fluidsynth/mididings_patch.py
+
+[Install]
+WantedBy=multi-user.target

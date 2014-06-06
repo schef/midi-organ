@@ -1,0 +1,16 @@
+[Unit]
+Description=JACKd
+Requires=sound.target fs_test_card0.service
+After=sound.target fs_test_card0.service
+
+[Service]
+Type=notify
+NotifyAccess=all
+User=root
+#ExecStart=/usr/bin/jackd -d alsa -d hw:0 -n 3 -r 44100 -p 128
+#ExecStart=/root/sf2/jackd.sh
+ExecStart=/root/fluidsynth/notify/jackd_notify.py
+
+[Install]
+WantedBy=multi-user.target
+#WantedBy=m-audio.path

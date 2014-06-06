@@ -1,0 +1,13 @@
+[Unit]
+Description=MIXER
+Requires=sound.target jackd.service
+After=sound.target jackd.service
+#After=sound.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/root/fluidsynth/mixer.sh
+
+[Install]
+WantedBy=multi-user.target

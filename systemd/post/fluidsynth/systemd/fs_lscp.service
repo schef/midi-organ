@@ -1,0 +1,15 @@
+[Unit]
+Description=lscp
+Requires=sound.target jackd.service linuxsampler.service
+After=sound.target jackd.service linuxsampler.service
+#After=sound.target
+
+[Service]
+Type=oneshot
+User=root
+#ExecStart=/usr/bin/linuxsampler
+#ExecStart=/root/organ/lscp_load.py /root/organ/pmi_baroque_organ-moerdijk.lscp
+ExecStart=/root/organ/lscp.sh /root/organ/pmi.lscp
+
+[Install]
+WantedBy=multi-user.target

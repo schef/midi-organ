@@ -1,0 +1,15 @@
+[Unit]
+Description=LinuxSampler
+Requires=sound.target jackd.service
+After=sound.target jackd.service
+#After=sound.target
+
+[Service]
+Type=simple
+User=root
+#ExecStart=/usr/bin/linuxsampler
+ExecStart=/root/organ/linuxsampler.sh
+#ExecStartPost=/root/organ/lscp.sh
+
+[Install]
+WantedBy=multi-user.target

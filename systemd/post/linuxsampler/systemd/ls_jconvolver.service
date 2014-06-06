@@ -1,0 +1,13 @@
+[Unit]
+Description=JConvolver
+Requires=sound.target jackd.service
+After=sound.target jackd.service
+#After=sound.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/root/fluidsynth/jconvolver.sh
+
+[Install]
+WantedBy=multi-user.target

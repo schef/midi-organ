@@ -1,0 +1,13 @@
+[Unit]
+Description=JACK_connect
+Requires=sound.target jackd.service fluidsynth.service mididings.service jconvolver.service mixer.service
+After=sound.target jackd.service fluidsynth.service mididings.service jconvolver.service mixer.service
+#After=sound.target
+
+[Service]
+Type=oneshot
+User=root
+ExecStart=/root/fluidsynth/jack_connect.sh
+
+[Install]
+WantedBy=multi-user.target

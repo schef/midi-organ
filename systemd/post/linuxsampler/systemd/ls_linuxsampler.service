@@ -1,0 +1,15 @@
+[Unit]
+Description=LinuxSampler
+Requires=sound.target ls_jackd.service
+After=sound.target ls_jackd.service
+#After=sound.target
+
+[Service]
+Type=notify
+User=root
+#ExecStart=/usr/bin/linuxsampler
+ExecStart=/root/linuxsampler/notify/linuxsampler_notify.py
+#ExecStartPost=/root/organ/lscp.sh
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,13 @@
+[Unit]
+Description=JACK_connect
+Requires=sound.target ls_jackd.service ls_linuxsampler.service ls_lscp.service ls_mididings.service ls_jconvolver.service ls_mixer.service
+After=sound.target ls_jackd.service ls_linuxsampler.service ls_lscp.service ls_mididings.service ls_jconvolver.service ls_mixer.service
+#After=sound.target
+
+[Service]
+Type=oneshot
+User=root
+ExecStart=/root/linuxsampler/jack_connect.sh
+
+[Install]
+WantedBy=multi-user.target

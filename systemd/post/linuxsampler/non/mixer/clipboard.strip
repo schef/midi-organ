@@ -1,0 +1,8 @@
+{
+	Mixer_Strip 0xB0 create :name "28" :width "narrow" :tab "fader" :color 1646010946 :gain_mode 0 :mute_mode 0 :group 0x0 :auto_input "" :manual_connection 0
+	Chain 0xB1 create :strip 0xB0 :tab "chain"
+	JACK_Module 0xB2 create :parameter_values "0.000000:2.000000" :is_default 1 :chain 0xB1 :active 1
+	Gain_Module 0xB3 create :parameter_values "-70.000000:0.000000" :is_default 1 :chain 0xB1 :active 1
+	Meter_Module 0xB4 create :is_default 1 :chain 0xB1 :active 1
+	JACK_Module 0xB5 create :parameter_values "2.000000:0.000000" :is_default 1 :chain 0xB1 :active 1
+}
