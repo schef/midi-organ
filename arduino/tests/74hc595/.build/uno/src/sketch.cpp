@@ -13,6 +13,7 @@ void loop();
 //          : to count from 0 to 255                           
 // http://arduino.cc/en/tutorial/ShiftOut
 //****************************************************************
+//#include <SPI.h>
 
 //Pin connected to ST_CP of 74HC595
 int latchPin = 9; //SS
@@ -25,6 +26,7 @@ int oneByOne[8] = {1, 2, 4, 8, 16, 32, 64, 128};
 
 void setup() {
   //set pins to output so you can control the shift register
+  //SPI.begin();
   pinMode(latchPin, OUTPUT);
   pinMode(clockPin, OUTPUT);
   pinMode(dataPin, OUTPUT);

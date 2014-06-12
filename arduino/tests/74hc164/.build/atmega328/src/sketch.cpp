@@ -3,23 +3,44 @@
 void setup();
 void loop();
 #line 1 "src/sketch.ino"
-//Test example for 74hc164
-
 #define data 2
 #define clock 3
+
+// use binary notation to discribe our number layouts
+byte zero  = B00000000;
+byte one   = B00000001;
+byte two   = B00000010;
+byte three = B00000100;
+byte four  = B00001000;
+byte five  = B00010000;
+byte six   = B00100000;
+byte seven = B01000000;
+byte eight = B10000000;
 
 void setup()
 {
   pinMode(clock, OUTPUT); // make the clock pin an output
-  pinMode(data , OUTPUT); // make the data pin an output
-  //shiftOut(data, clock, LSBFIRST, B10101010); // send this binary value to the shift register
-
- for(int i = 0; i < 8; ++i) //for 0 - 7 do
-  {
-    shiftOut(data, clock, MSBFIRST, 1 << i); // bit shift a logic high (1) value by i
-    delay(100); // delay 100ms or you would not be able to see it
-  }
-
+  pinMode(data , OUTPUT); // make the data pin an output3
 }
 
-void loop(){} // empty loop for now
+void loop()
+{
+    shiftOut(data, clock, LSBFIRST, zero);
+    delay(2000);
+    shiftOut(data, clock, LSBFIRST, one);
+    delay(2000);
+    shiftOut(data, clock, LSBFIRST, two);
+    delay(2000);
+    shiftOut(data, clock, LSBFIRST, three);
+    delay(2000);
+    shiftOut(data, clock, LSBFIRST, four);
+    delay(2000);
+    shiftOut(data, clock, LSBFIRST, five);
+    delay(2000);
+    shiftOut(data, clock, LSBFIRST, six);
+    delay(2000);
+    shiftOut(data, clock, LSBFIRST, seven);
+    delay(2000);
+    shiftOut(data, clock, LSBFIRST, eight);
+    delay(2000);
+}
