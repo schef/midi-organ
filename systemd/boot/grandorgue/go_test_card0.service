@@ -1,0 +1,13 @@
+[Unit]
+Description=test_card0
+Requires=sound.target
+After=sound.target
+
+[Service]
+#Process has to exit before systemd starts follow-up units
+Type=oneshot
+User=root
+ExecStart=/root/midi-organ/systemd/boot/grandorgue/scripts/test_card0.sh
+
+[Install]
+WantedBy=multi-user.target
