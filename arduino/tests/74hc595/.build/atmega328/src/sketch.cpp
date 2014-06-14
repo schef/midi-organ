@@ -13,6 +13,7 @@ void loop();
 //          : to count from 0 to 255                           
 // http://arduino.cc/en/tutorial/ShiftOut
 //****************************************************************
+//#include <SPI.h>
 
 //Pin connected to ST_CP of 74HC595
 int latchPin = 9; //SS
@@ -25,6 +26,7 @@ int oneByOne[8] = {1, 2, 4, 8, 16, 32, 64, 128};
 
 void setup() {
   //set pins to output so you can control the shift register
+  //SPI.begin();
   pinMode(latchPin, OUTPUT);
   pinMode(clockPin, OUTPUT);
   pinMode(dataPin, OUTPUT);
@@ -38,11 +40,33 @@ void loop() {
     // the LEDs don't change while you're sending in bits:
     digitalWrite(latchPin, LOW);
     // shift out the bits:
+    shiftOut(dataPin, clockPin, MSBFIRST, 0);  
     shiftOut(dataPin, clockPin, MSBFIRST, oneByOne[numberToDisplay]);  
 
     //take the latch pin high so the LEDs will light up:
     digitalWrite(latchPin, HIGH);
     // pause before next value:
-    delay(500);
+    delay(120);
   }
+    digitalWrite(latchPin, LOW);
+    shiftOut(dataPin, clockPin, MSBFIRST, 0);
+    digitalWrite(latchPin, HIGH);
+    delay(250);
+  for (int numberToDisplay = 7; numberToDisplay >=0; numberToDisplay--) {
+    // take the latchPin low so 
+    // the LEDs don't change while you're sending in bits:
+    digitalWrite(latchPin, LOW);
+    // shift out the bits:
+    shiftOut(dataPin, clockPin, MSBFIRST, 0);  
+    shiftOut(dataPin, clockPin, MSBFIRST, oneByOne[numberToDisplay]);  
+
+    //take the latch pin high so the LEDs will light up:
+    digitalWrite(latchPin, HIGH);
+    // pause before next value:
+    delay(120);
+  }
+    digitalWrite(latchPin, LOW);
+    shiftOut(dataPin, clockPin, MSBFIRST, 0);
+    digitalWrite(latchPin, HIGH);
+    delay(250);
 }

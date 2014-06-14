@@ -8,7 +8,12 @@
 	@echo [93msrc/sketch.ino[0m
 	@/usr/bin/ino preproc  -o $@ $^
 
+.build/atmega328/src/knight_rider.cpp : src/knight_rider.ino
+	@mkdir -p .build/atmega328/src
+	@echo [93msrc/knight_rider.ino[0m
+	@/usr/bin/ino preproc  -o $@ $^
 
-all : .build/atmega328/src/sketch.cpp
+
+all : .build/atmega328/src/sketch.cpp .build/atmega328/src/knight_rider.cpp
 	@true
 
