@@ -5,3 +5,8 @@ vim popis.txt
   :%s/^/\=printf("Pipe%03d=.\\skrabl\\bourdon_8\\new\\", line("."))	
   :let i=01 | g/bourdon_16-/s/\d\d.wav/\=i.".wav"/ | let i=i+1
   Pipe056PitchTuning=100
+
+#da testiram ako stima redosljed tonova
+for i in ./*.wav ; do mplayer $i; done
+#za autoloopove
+for i in ./*.wav;do wine /home/schef/Downloads/autoloop/autoloop.exe $i \/o new/$i /messagesoff; done
