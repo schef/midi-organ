@@ -170,7 +170,7 @@ C 45800 52200 0 0 0 title-A3.sym
 T 55400 52900 9 10 1 0 0 0 1
 arduino standalone
 T 55400 52600 9 10 1 0 0 0 1
-arduino_standalone_norefnum.sch
+arduino_standalone.sch
 T 55400 52300 9 10 1 0 0 0 1
 1
 T 56900 52300 9 10 1 0 0 0 1

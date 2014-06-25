@@ -6,9 +6,9 @@ C 37500 46700 1 0 0 vcc-1.sym
 N 37700 46700 37700 46400 4
 C 32300 41700 0 0 0 title-A4.sym
 T 37000 42400 9 10 1 0 0 0 1
-analog generic 2
+analog generic 3
 T 37000 42100 9 10 1 0 0 0 1
-analog_generic_2_norefnum.sch
+analog_generic_3.sch
 T 37000 41800 9 10 1 0 0 0 1
 1
 T 38500 41800 9 10 1 0 0 0 1
@@ -20,9 +20,9 @@ Benjamin Horvat | http://horvat-elektronika.hr
 C 38000 46100 1 0 0 output-2.sym
 {
 T 38900 46300 5 10 0 1 0 0 1
-net=angen2:1
+net=angen3:1
 T 38200 46100 5 7 1 1 0 0 1
-device=ANGEN2
+device=ANGEN3
 T 38900 46200 5 10 0 1 0 1 1
 value=OUTPUT
 }

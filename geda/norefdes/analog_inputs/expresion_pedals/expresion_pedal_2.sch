@@ -15,9 +15,9 @@ C 37500 47000 1 0 0 vcc-1.sym
 N 37700 47000 37700 46700 4
 C 32300 41700 0 0 0 title-A4.sym
 T 37000 42400 9 10 1 0 0 0 1
-expresion pedal 1
+expresion pedal 2
 T 37000 42100 9 10 1 0 0 0 1
-expresion_pedal_1_norefnum.sch
+expresion_pedal_2.sch
 T 37000 41800 9 10 1 0 0 0 1
 1
 T 38500 41800 9 10 1 0 0 0 1
@@ -29,9 +29,9 @@ Benjamin Horvat | http://horvat-elektronika.hr
 C 38500 46100 1 0 0 output-2.sym
 {
 T 39400 46300 5 10 0 1 0 0 1
-net=exped1:1
+net=exped2:1
 T 38700 46100 5 7 1 1 0 0 1
-device=EXPED1
+device=EXPED2
 T 39400 46200 5 10 0 1 0 1 1
 value=OUTPUT
 }

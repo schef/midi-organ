@@ -17,7 +17,7 @@ C 32300 41700 0 0 0 title-A4.sym
 T 37000 42400 9 10 1 0 0 0 1
 expresion pedal 3
 T 37000 42100 9 10 1 0 0 0 1
-expresion_pedal_3_norefnum.sch
+expresion_pedal_3.sch
 T 37000 41800 9 10 1 0 0 0 1
 1
 T 38500 41800 9 10 1 0 0 0 1

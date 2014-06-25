@@ -38,7 +38,7 @@ C 50900 53000 1 0 0 vcc-1.sym
 N 50800 53000 51100 53000 4
 C 42900 48600 0 0 0 title-A4.sym
 T 47600 49000 9 10 1 0 0 0 1
-midi_connector_norefnum.sch
+midi_connector.sch
 T 47600 49300 9 10 1 0 0 0 1
 midi connector
 T 47600 48700 9 10 1 0 0 0 1
