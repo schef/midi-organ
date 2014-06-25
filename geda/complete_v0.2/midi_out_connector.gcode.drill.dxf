@@ -1,0 +1,338 @@
+  0
+SECTION
+  2
+HEADER
+  9
+$ACADVER
+  1
+AC1009
+  9
+$EXTMAX
+ 10
+36.9199981689453
+ 20
+20.9200000762939
+ 30
+0.0
+  9
+$EXTMIN
+ 10
+3.9000000953674
+ 20
+5.6799998283386
+ 30
+0.0
+  9
+$INSUNITS
+ 70
+     4
+  9
+$LUNITS
+ 70
+     2
+  9
+$LUPREC
+ 70
+     4
+  9
+$MEASUREMENT
+ 70
+     1
+  0
+ENDSEC
+  0
+SECTION
+  2
+TABLES
+  0
+TABLE
+  2
+LAYER
+ 70
+     1
+  0
+LAYER
+  2
+0
+ 70
+     0
+ 62
+     7
+  6
+Continuous
+  0
+LAYER
+  2
+Default
+ 70
+     0
+ 62
+    70
+  6
+Continuous
+  0
+ENDTAB
+  0
+TABLE
+  2
+APPID
+ 70
+     1
+  0
+APPID
+  2
+ACAD
+ 70
+     0
+  0
+ENDTAB
+  0
+ENDSEC
+  0
+SECTION
+  2
+ENTITIES
+  0
+POINT
+  8
+Default
+ 10
+8.98
+ 20
+5.68
+ 30
+0.0
+  0
+POINT
+  8
+Default
+ 10
+14.06
+ 20
+5.68
+ 30
+0.0
+  0
+POINT
+  8
+Default
+ 10
+16.6
+ 20
+8.22
+ 30
+0.0
+  0
+POINT
+  8
+Default
+ 10
+20.41
+ 20
+9.49
+ 30
+0.0
+  0
+POINT
+  8
+Default
+ 10
+22.716909
+ 20
+7.355495
+ 30
+0.0
+  0
+POINT
+  8
+Default
+ 10
+24.22
+ 20
+10.76
+ 30
+0.0
+  0
+POINT
+  8
+Default
+ 10
+24.22
+ 20
+13.3
+ 30
+0.0
+  0
+POINT
+  8
+Default
+ 10
+24.22
+ 20
+15.84
+ 30
+0.0
+  0
+POINT
+  8
+Default
+ 10
+25.49
+ 20
+19.65
+ 30
+0.0
+  0
+POINT
+  8
+Default
+ 10
+28.03
+ 20
+19.65
+ 30
+0.0
+  0
+POINT
+  8
+Default
+ 10
+30.57
+ 20
+19.65
+ 30
+0.0
+  0
+POINT
+  8
+Default
+ 10
+31.84
+ 20
+15.84
+ 30
+0.0
+  0
+POINT
+  8
+Default
+ 10
+31.84
+ 20
+13.3
+ 30
+0.0
+  0
+POINT
+  8
+Default
+ 10
+31.84
+ 20
+10.76
+ 30
+0.0
+  0
+POINT
+  8
+Default
+ 10
+32.876909
+ 20
+7.355495
+ 30
+0.0
+  0
+POINT
+  8
+Default
+ 10
+36.92
+ 20
+9.49
+ 30
+0.0
+  0
+POINT
+  8
+Default
+ 10
+36.92
+ 20
+19.65
+ 30
+0.0
+  0
+POINT
+  8
+Default
+ 10
+20.41
+ 20
+17.11
+ 30
+0.0
+  0
+POINT
+  8
+Default
+ 10
+16.6
+ 20
+18.38
+ 30
+0.0
+  0
+POINT
+  8
+Default
+ 10
+14.06
+ 20
+20.92
+ 30
+0.0
+  0
+POINT
+  8
+Default
+ 10
+8.98
+ 20
+20.92
+ 30
+0.0
+  0
+POINT
+  8
+Default
+ 10
+3.9
+ 20
+15.84
+ 30
+0.0
+  0
+POINT
+  8
+Default
+ 10
+3.9
+ 20
+10.76
+ 30
+0.0
+  0
+POINT
+  8
+Default
+ 10
+14.06
+ 20
+13.3
+ 30
+0.0
+  0
+ENDSEC
+  0
+EOF
