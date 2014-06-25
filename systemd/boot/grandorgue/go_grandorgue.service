@@ -1,0 +1,15 @@
+[Unit]
+Description=LinuxSampler
+Requires=sound.target go_jackd.service
+After=sound.target go_jackd.service
+#After=sound.target
+
+[Service]
+Type=notify
+User=root
+#ExecStart=/usr/bin/linuxsampler
+ExecStart=/root/midi-organ/systemd/boot/grandorgue/scripts/go_notify.py
+#ExecStartPost=/root/organ/lscp.sh
+
+[Install]
+WantedBy=multi-user.target

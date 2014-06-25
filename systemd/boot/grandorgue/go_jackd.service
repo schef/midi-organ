@@ -1,0 +1,14 @@
+[Unit]
+Description=JACKd
+Requires=sound.target go_test_card0.service
+After=sound.target go_test_card0.service
+
+[Service]
+Type=notify
+NotifyAccess=all
+User=root
+ExecStart=/root/midi-organ/systemd/boot/grandorgue/scripts/jackd_notify.py
+
+[Install]
+WantedBy=multi-user.target
+#WantedBy=m-audio.path
