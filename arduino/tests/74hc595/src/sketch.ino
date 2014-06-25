@@ -30,13 +30,18 @@ void setup() {
 void loop() {
   // count from 0 to 255 and display the number 
   // on the LEDs
-  for (int numberToDisplay = 0; numberToDisplay < 8; numberToDisplay++) {
+  for (int numberToDisplay = 0; numberToDisplay < 6; numberToDisplay++) {
     // take the latchPin low so 
     // the LEDs don't change while you're sending in bits:
     digitalWrite(latchPin, LOW);
     // shift out the bits:
     shiftOut(dataPin, clockPin, MSBFIRST, 0);  
-    shiftOut(dataPin, clockPin, MSBFIRST, oneByOne[numberToDisplay]);  
+    shiftOut(dataPin, clockPin, MSBFIRST, B11111111);  
+    shiftOut(dataPin, clockPin, MSBFIRST, B11111111);  
+    shiftOut(dataPin, clockPin, MSBFIRST, B11111111);  
+    shiftOut(dataPin, clockPin, MSBFIRST, B11111111);  
+    shiftOut(dataPin, clockPin, MSBFIRST, B11111111);  
+    shiftOut(dataPin, clockPin, MSBFIRST, B11111111);  
 
     //take the latch pin high so the LEDs will light up:
     digitalWrite(latchPin, HIGH);
@@ -47,13 +52,18 @@ void loop() {
     shiftOut(dataPin, clockPin, MSBFIRST, 0);
     digitalWrite(latchPin, HIGH);
     delay(250);
-  for (int numberToDisplay = 7; numberToDisplay >=0; numberToDisplay--) {
+  for (int numberToDisplay = 0; numberToDisplay < 6; numberToDisplay++) {
     // take the latchPin low so 
     // the LEDs don't change while you're sending in bits:
     digitalWrite(latchPin, LOW);
     // shift out the bits:
     shiftOut(dataPin, clockPin, MSBFIRST, 0);  
-    shiftOut(dataPin, clockPin, MSBFIRST, oneByOne[numberToDisplay]);  
+    shiftOut(dataPin, clockPin, MSBFIRST, B00000000);  
+    shiftOut(dataPin, clockPin, MSBFIRST, B00000000);  
+    shiftOut(dataPin, clockPin, MSBFIRST, B00000000);  
+    shiftOut(dataPin, clockPin, MSBFIRST, B00000000);  
+    shiftOut(dataPin, clockPin, MSBFIRST, B00000000);  
+    shiftOut(dataPin, clockPin, MSBFIRST, B00000000);  
 
     //take the latch pin high so the LEDs will light up:
     digitalWrite(latchPin, HIGH);

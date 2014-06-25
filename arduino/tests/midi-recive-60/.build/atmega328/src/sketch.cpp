@@ -40,6 +40,13 @@ void checkMIDI(){
         //check if note == 60 and velocity > 0
         if (noteByte == 60  && velocityByte > 0){
           digitalWrite(13,HIGH);//turn on led
+          Serial.write(144);
+          Serial.write(60);
+          Serial.write(100);
+	  delay(200);
+          Serial.write(144);
+          Serial.write(60);
+          Serial.write(0);
         }
       }
     }
