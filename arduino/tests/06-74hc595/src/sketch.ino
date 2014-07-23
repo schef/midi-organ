@@ -30,36 +30,34 @@ void setup() {
 void loop() {
   // count from 0 to 255 and display the number 
   // on the LEDs
-  for (int numberToDisplay = 0; numberToDisplay < 6; numberToDisplay++) {
+  //for (int numberToDisplay = 0; numberToDisplay < 6; numberToDisplay++) {
     // take the latchPin low so 
     // the LEDs don't change while you're sending in bits:
     digitalWrite(latchPin, LOW);
     // shift out the bits:
-    shiftOut(dataPin, clockPin, MSBFIRST, 0);  
     shiftOut(dataPin, clockPin, MSBFIRST, B10101010);  
 
     //take the latch pin high so the LEDs will light up:
     digitalWrite(latchPin, HIGH);
     // pause before next value:
     delay(120);
-  }
+  //}
     digitalWrite(latchPin, LOW);
     shiftOut(dataPin, clockPin, MSBFIRST, 0);
     digitalWrite(latchPin, HIGH);
     delay(250);
-  for (int numberToDisplay = 0; numberToDisplay < 6; numberToDisplay++) {
+  //for (int numberToDisplay = 0; numberToDisplay < 6; numberToDisplay++) {
     // take the latchPin low so 
     // the LEDs don't change while you're sending in bits:
     digitalWrite(latchPin, LOW);
     // shift out the bits:
-    shiftOut(dataPin, clockPin, MSBFIRST, 0);  
     shiftOut(dataPin, clockPin, MSBFIRST, B01010101);  
 
     //take the latch pin high so the LEDs will light up:
     digitalWrite(latchPin, HIGH);
     // pause before next value:
     delay(120);
-  }
+  //}
     digitalWrite(latchPin, LOW);
     shiftOut(dataPin, clockPin, MSBFIRST, 0);
     digitalWrite(latchPin, HIGH);
