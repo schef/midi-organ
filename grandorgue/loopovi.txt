@@ -1,10 +1,16 @@
 #!/bin/bash
+#dodati vodece 0 na 1-9
+  :%s/-\(\d\)\./-0\1\./
 ls *.wav > popis.txt
 vim popis.txt
   #treba dodat 4*56
   :%s/^/\=printf("Pipe%03d=.\\skrabl\\bourdon_8\\new\\", line("."))	
-  :let i=01 | g/bourdon_16-/s/\d\d.wav/\=i.".wav"/ | let i=i+1
-  Pipe056PitchTuning=100
+  #:let i=01 | g/bourdon_16-/s/\d\d.wav/\=i.".wav"/ | let i=i+1
+  Pipe057PitchTuning=100
+  Pipe058PitchTuning=200
+  Pipe059PitchTuning=300
+  Pipe060PitchTuning=400
+  Pipe061PitchTuning=500
 
 #da testiram ako stima redosljed tonova
 for i in ./*.wav ; do mplayer $i; done
