@@ -1,0 +1,12 @@
+bakar,				2mm
+konektor 36pol 2.54 za plocicu, 0.9mm
+podnožje dil 7.62mm,		0.8mm
+otpornici, 			0.8mm
+diode, 				0.8mm
+vias, 				0.8mm
+midi, 				0.9mm
+taster 7.5mm,			0.9mm
+serijski konektor,		0.9mm
+midi shield,			1mm
+power jack,			2.55mm
+mounting holes,			3.25mm
