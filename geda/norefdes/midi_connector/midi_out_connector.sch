@@ -23,9 +23,9 @@ C 48800 51900 1 0 0 gnd-1.sym
 C 46500 52900 1 0 0 input-2.sym
 {
 T 46500 53100 5 10 0 0 0 0 1
-net=midi:1
-T 47100 52900 5 10 1 1 0 0 1
-device=MIDI
+net=midi_out:1
+T 47100 52900 5 6 1 1 0 0 1
+device=MIDI_OUT
 T 47000 53000 5 10 0 1 0 7 1
 value=INPUT
 }
@@ -38,9 +38,9 @@ C 50900 53000 1 0 0 vcc-1.sym
 N 50800 53000 51100 53000 4
 C 42900 48600 0 0 0 title-A4.sym
 T 47600 49000 9 10 1 0 0 0 1
-midi_connector.sch
+midi_out_connector.sch
 T 47600 49300 9 10 1 0 0 0 1
-midi connector
+midi out connector
 T 47600 48700 9 10 1 0 0 0 1
 1
 T 49100 48700 9 10 1 0 0 0 1
