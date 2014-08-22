@@ -1,0 +1,14 @@
+26c26
+<     std::cout << "Byte " << i << " = " << (int)message->at(i) << ", ";
+---
+>     std::cout << (int)message->at(i) << ":";
+28c28
+<     std::cout << "stamp = " << deltatime << std::endl;
+---
+>     std::cout << deltatime << std::endl;
+78,79c78,79
+<   std::string keyHit;
+<   std::getline( std::cin, keyHit );
+---
+>   std::string keyHit("y");
+>   //std::getline( std::cin, keyHit );
