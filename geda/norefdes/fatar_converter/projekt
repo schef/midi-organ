@@ -1,0 +1,4 @@
+m4-pcbdir /usr/share/pcb/m4
+elements-dir /home/bebox/Work/git/midi-organ/geda/usr_lib/symbols
+schematics fatar_converter.sch
+output-name fatar_converter
