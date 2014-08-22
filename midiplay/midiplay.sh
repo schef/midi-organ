@@ -1,15 +1,18 @@
 #!/bin/bash
-#midiplay is the name of this script
-#it is hosted at 
+#MIDIPLAY is the name of this script
+#HOSTED @ https://github.com/schef/midi-organ/tree/master/midiplay 
+#VERSION 0.1
 #script that uses patched rtmidi[v2.0.1]-cmidiin STDOUT to capture midi commands and parse it for midi record and playback
+#DEPENDNCY pmidi arecordmidi rtmidi-cmidiin
 #the patch is cmidiin-midiplay.patch
 
 APLAYMIDI=0 #variable that toggles midiplay on the same button
 ARECORDMIDI=0
 APLAYMIDI_COMMAND=144:48:100 # command:note:velocity
 ARECORDMIDI_COMMAD=144:49:100
-CMIDIIN_MIDIPLAY="./cmidiin"
-MIDI_FILE="~/skrabl.mid"
+CMIDIIN_PATCHED="./cmidiin"
+MIDI_FILE="skrabl.mid"
+touch $MIDI_FILE
 while read line
 	do
 	echo $line
@@ -38,4 +41,4 @@ while read line
 		fi
 	#elif [ $(echo "$line" | grep -E "^144:61:100:.*$") ]; then
 	fi
-	done < <($CMIDIIN-PATCHED)
+	done < <($CMIDIIN_PATCHED)
