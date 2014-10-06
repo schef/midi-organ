@@ -10,13 +10,13 @@ value=220
 T 45700 52400 5 10 0 0 0 0 1
 footprint=R025
 }
-C 44800 52900 1 0 0 Female-DIN-5.sym
+C 46200 52900 1 0 1 Female-DIN-5.sym
 {
-T 45000 55300 5 10 0 0 0 0 1
+T 46000 55300 5 10 0 0 0 6 1
 device=Female-DIN-5
-T 45000 54900 5 10 0 0 0 0 1
+T 46000 54900 5 10 0 0 0 6 1
 footprint=Female_DIN_5_pin
-T 45695 54195 5 10 1 1 0 0 1
+T 45305 54195 5 10 1 1 0 6 1
 refdes=CN994
 }
 C 50900 55300 1 0 0 vcc-1.sym
@@ -30,7 +30,7 @@ T 47600 48700 9 10 1 0 0 0 1
 T 49100 48700 9 10 1 0 0 0 1
 1
 T 51400 49000 9 10 1 0 0 0 1
-v0.1
+v0.2
 T 51400 48700 9 8 1 0 0 0 1
 Benjamin Horvat | http://horvat-elektronika.hr
 C 52400 53300 1 180 1 output-2.sym
