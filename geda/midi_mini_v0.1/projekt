@@ -1,0 +1,3 @@
+schematics arduino_standalone_extended_v0.3.sch 74hc165_x4.sch 74hc164_x4.sch 74hc595_x6.sch midi_out_connector.sch midi_in_connector.sch expresion_pedal_1.sch expresion_pedal_2.sch expresion_pedal_3.sch analog_generic_1.sch analog_generic_2.sch analog_generic_3.sch
+output-name midi_organ_v0.2
+elements-dir ~/Work/gaf/config/pcb-elements
